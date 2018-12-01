@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#febbbb+0,fe9090+50,ff5c5c+100 */
+    background: #febbbb; /* Old browsers */
+    background: -moz-linear-gradient(top, #febbbb 0%, #fe9090 50%, #ff5c5c 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #febbbb 0%,#fe9090 50%,#ff5c5c 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #febbbb 0%,#fe9090 50%,#ff5c5c 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+    font-family: Arial, Helvetica, sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed; 
+}
+header {
+    padding: 30px 0;
+    text-align: center;
+}
+.contenedor {
+    margin: 0 auto;
+    width: 800px;
+}
